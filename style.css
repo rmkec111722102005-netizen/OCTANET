@@ -1,0 +1,83 @@
+body{
+    min-height: 100vh;
+    background-image:url("https://st4.depositphotos.com/4218696/38279/i/1600/depositphotos_382797946-stock-photo-business-partners-shaking-hands-sitting.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    width: 85%;
+    margin:auto;
+    
+}
+nav{
+    height: 80px;
+    
+}
+nav h1{
+    float:left;
+    line-height:40px;
+    font-size:25px;
+    font-size: inline;
+    color:blue;
+    text-align: center;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding:7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    width:50%;
+    margin:auto;
+    text-align: center;
+    transform:translateY(25vh);
+}
+.article h1{
+    font-size: 40px;
+    color:rgb(37, 9, 245);
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom:25px;
+    text-align: center;
+    
+}
+.article p{
+    font-size: 18px;
+    color: rgb(44, 232, 204);
+    line-height:1.5;
+    margin-bottom:50px;
+    text-align: center;
+
+}
+.article .btn{
+    color:#3d10ef;
+    padding: 12px 25px;
+    letter-spacing: 1.5px;
+    text-transform: none;
+    background-color: #f15048;
+    text-align: center;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition:0.5s ease;
+}
